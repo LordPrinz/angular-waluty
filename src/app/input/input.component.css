@@ -1,0 +1,80 @@
+.input-container {
+    flex: 1;
+    display: flex;
+    border: 1px solid #5f6368;
+    overflow: hidden;
+    padding: 1px;
+    caret-color: #8ab4f8;
+    color: #9aa0a6;
+    border-radius: 6px;
+    max-width: 330px;
+    position: relative;
+}
+
+.input-container:hover {
+    border: 1px solid #9aa0a6;
+}
+
+.input-container:focus-within {
+    border: 1px solid #8ab4f8;
+}
+
+input {
+    background-color: #202124;
+    margin: 0;
+    overflow: hidden;
+    text-align: left;
+    line-height: 24px;
+    -moz-appearance: textfield;
+    padding: 1px 6px 1px 12px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    color: #bdc1c6;
+    outline: 0;
+    flex: 10;
+    position: relative;
+    display: block;
+    appearance: none;
+}
+
+select {
+    outline: 0;
+    background-color: #202124;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    display: inline-block;
+    border: 0;
+    color: #bdc1c6;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.bar {
+    border-left: 1px solid #3c4043;
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    z-index: 3;
+}
+
+.option-container {
+    position: relative;
+    flex: 12;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select option {
+    background-color: rgb(59, 59, 59);
+    color: #eee;
+}

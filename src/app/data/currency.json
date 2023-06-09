@@ -1,0 +1,16 @@
+[{
+        "name": "USD",
+        "displayName": "Dolar Amerykański",
+        "value": 3.4
+    },
+    {
+        "name": "PLN",
+        "displayName": "Złoty",
+        "value": 1
+    },
+    {
+        "name": "EURO",
+        "displayName": "Euro",
+        "value": 4.6
+    }
+]

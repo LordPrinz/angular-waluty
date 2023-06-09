@@ -1,0 +1,22 @@
+<div class="input-container">
+  <input
+    [(ngModel)]="value"
+    name="value"
+    (input)="changeValue($event)"
+    type="number"
+    min="1"
+    value="{{ value1 }}"
+  />
+  <div class="option-container">
+    <div class="bar"></div>
+    <select
+      [(ngModel)]="currency"
+      name="currency"
+      (input)="changeCurrency($event)"
+    >
+      <option *ngFor="let currency of currencys" [value]="currency.name">
+        {{ currency.displayName }}
+      </option>
+    </select>
+  </div>
+</div>

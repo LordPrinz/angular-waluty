@@ -1,0 +1,12 @@
+.input-container {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main {
+    border-radius: 1.5rem;
+    max-width: 330px;
+}

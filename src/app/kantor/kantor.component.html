@@ -1,0 +1,21 @@
+<div class="main">
+  <app-display
+    [currency1]="currency1?.displayName"
+    [currency2]="currency2?.displayName"
+    [value1]="amount1"
+    [calVal]="calculatedValue"
+  ></app-display>
+  <div class="input-container">
+    <app-input
+      (valueChange)="onValueChange1($event)"
+      (currencyChange)="onCurrencyChange1($event)"
+      [value1]="amount1"
+    ></app-input>
+
+    <app-input2
+      (valueChange)="onValueChange2($event)"
+      (currencyChange)="onCurrencyChange2($event)"
+      [value1]="amount2"
+    ></app-input2>
+  </div>
+</div>
